@@ -1,0 +1,44 @@
+1. git commit 메시지 수정하기
+
+git commit 까지 완료한 후에
+
+git commit --amend
+
+vim에서
+esc -> :q! : 강제 종료(저장하지 않고)
+esc -> :wq! : 강제 저장 후 종료
+
+2. commit을 새로 생성하지 않고 전체 수정하기
+
+git add .
+git commit --amend
+
+-> 메시지, 날짜, 파일(vim 수정) -> 저장
+
+=====================================
+
+git revert : 특정 commit을 없었던 일로 만들기
+
+git log --oneline
+: 해시값 확인
+
+git revert 해시값
+
+======================================
+
+git reset : 특정 commit 으로 되돌리기
+
+git reset --hard 해시값
+
+git reflog : 이전 과거 commit 기록을 모두 볼 수 있음
+
+======================================
+
+git add 취소하기
+(staging area 있는 작업을 working directory로 옮기기)
+
+1. commit이 없는 경우
+git rm --cached 파일명
+
+2. 이전에 했던 commit이 있는 경우
+git restore --staged 파일명
