@@ -100,3 +100,21 @@ ctrl + b : 사이드바
 ctrl + ` : 터미널 열기/닫기
 ctrl + , : setting 열기
 ctrl + s : 저장
+
+
+================================================
+git remote add "별칭" url
+git 주소 넣기
+
+git remote -v 
+연결된 주소 확인
+
+git push "별칭" +master 
+푸쉬 			강제로
+
+git clone url
+github에 있는 자료 복사 => 처음할 때는 pull xx 
+
+git pull origin +master
+github에 수정된 자료 pull
+

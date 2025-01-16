@@ -1,0 +1,67 @@
+https://www.markdownguide.org/basic-syntax/
+https://married-spot-253.notion.site/5fef18bbcd4b467fb8c7ed819250e1e8?v=d7d02b0f89684f7e8e5650572eb693e2
+
+
+github에 프로젝트 올릴때 README.md 파일에 활용
+
+
+---------------------------------------------------------------------------------------------------------------
+
+GUI
+CLI
+I: interface -> 대상을 제어하는 수단
+interface : 리모컨
+
+GUI <-> TUI(Text user interface)
+CLI= command line interface
+ 
+
+---------------------------------------------------------------------------------------------------------------
+window os의 interface
+GUI= "windows shell"
+CLI = "power shell", "명령프롬프트 (cmd)
+
+Linux OS의 interface
+GUI:"GNOME"
+CLI:"BASH"
+
+BASH: TAB키 사용시 자동완성
+
+
+
+GIT을 다룰때 interface
+GUI:"Gighub Desktop","소스트리"
+CLI:"git bash(많이 사용할듯)
+
+git 쓸 때 GUI VS CLI
+GUI 장점:    보기 편하다. 친숙하다
+		 복잡한 분석(Graph 같은 것을 훨씬 보기 좋다)
+CLI  장점:    빠르다(commit 명령어 2~3초 면 끝)
+		 계속 사용됨 변화하지 않음
+
+결론: 둘다 써야하지만 CLI를 사용할 것...
+
+---------------------------------------------------------------------------------------------------------------
+
+IDE
+python: phycharm, 쥬피터노트북
+c# :visual studio
+java: Intellij
+---------------------------------------------------------------------------------------------------------------
+MINGW = minimal GNU for windows
+윈도우에서 리눅스 환경에서 사용하는 툴을 사용가능하게 하는 명령어
+
+---------------------------------------------------------------------------------------------------------------
+                          git: 로컬 저장소
+Working Directory -------> staging Area -----> repository
+                        git.add                      git. commit
+
+
+git: 로컬 저장소 ------------>github:원격저장소
+                           push
+                      <-------------
+                          pull
+
+
+
+

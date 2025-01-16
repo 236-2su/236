@@ -1,0 +1,37 @@
+Python 용어정리
+
+math.sort x=> sort
+sorted =  새로운 변수 함수에 정렬을 하는것
+sort= 기본 함수를 그대로 정렬하는 거
+ex) numbers.sort()
+     upper = sorted(numbers)
+
+
+문자열로 받기
+num_str = str(num)
+
+행렬로 받기
+matrix = [[int(digit)] for digit in num_str]
+
+ord(A)  - 아스키 코드로 숫자 받기
+A= 65, B= 66
+
+
+import string을 하고
+string.ascii_appercase를 사용하면 알파벳 A부터 Z 까지 사용가능
+
+a.index() = 문자열 순번을 알려주는 함수
+
+join = 문자열 메소드로 튜블, 리스트를 하나의 문자열로 결합
+
+end= " " -> 줄바꿈 대신 쓰는 함수 쓰면 줄이 바뀌어지지 않고 뒤에 붙음
+
+"".join() = 문자열이나 튜플을 하나의 문자열로 결합하고 "" 사이에 있는 문자를 사이사이에 끼어 넣음
+
+str(a).count(b)= a문자열에 b가 몇개 있는지 카운트
+
+string.startswith = 특정 문자열이 다른 문자열의 시작부분에 존재하는지 확인하는 함수
+ex) string.startswith(prefix[,start[,end]])
+- prefix는 확인하고자하는 문자열
+  start 확인 시작 위치
+  end: ghkrdls whdfygkf dnlcl
