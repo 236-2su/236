@@ -1,7 +1,7 @@
-# 자기소개
-    1. 출생: 1995년 3월 27일 오전 9시, 경상남도 진주시
-    2. MBTI: INTP
-    3. 취미
-       1. 게임(롤,피파,베그)
-       2. 운동(축구, 헬스)
-    4. 
+👋 Hi, I’m @236-2su
+👀 I’m interested in football, training, playing game
+🌱 I’m currently learning python and github
+💞️ I’m looking to collaborate on ...
+📫 How to reach me
+😄 Pronouns:
+⚡ Fun fact: ...
