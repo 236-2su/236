@@ -1,0 +1,10 @@
+t.ly/pb-document
+
+강의 용어정리
+
+pip-python install package
+
+
+<페르소나>
+</페르소나>
+==> 페르소나를 열고 /로 페르소나를 닫음

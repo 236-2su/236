@@ -1,11 +1,12 @@
 Python 용어정리
+=======================================================
 
 math.sort x=> sort
 sorted =  새로운 변수 함수에 정렬을 하는것
 sort= 기본 함수를 그대로 정렬하는 거
 ex) numbers.sort()
      upper = sorted(numbers)
-
+=====================================================
 
 문자열로 받기
 num_str = str(num)
@@ -15,7 +16,6 @@ matrix = [[int(digit)] for digit in num_str]
 
 ord(A)  - 아스키 코드로 숫자 받기
 A= 65, B= 66
-
 
 import string을 하고
 string.ascii_appercase를 사용하면 알파벳 A부터 Z 까지 사용가능
@@ -35,3 +35,9 @@ ex) string.startswith(prefix[,start[,end]])
 - prefix는 확인하고자하는 문자열
   start 확인 시작 위치
   end: ghkrdls whdfygkf dnlcl
+
+
+string[][]
+
+
+
