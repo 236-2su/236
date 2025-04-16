@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    /* 클래스 선택자(클래스 셀렉터) */
+    .green{
+        color: green;
+    }
+    
+    .purple{
+        color: purple;
+    }
+    /* 자식 결합자 */
+    #purple>span{
+        font-size: 50px;
+    }
+    #purple li{
+        color: brown;
+    }
+</style>
+<body>
+    <!-- h1.green class selector emmit-->
+    <h1 class="green">Heading</h1>
+    <!-- h1#green id selector emmit-->
+    <h1 id="green">알고리즘</h1>
+    <!-- ul#purle>li*2+li>ol>li*3 -->
+    <ul id="purple">
+        <li>웹</li>
+        <li>프론트</li>
+        <li>프론트
+            <ol>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JS</li>
+            </ol>
+        </li>
+    </ul>
+    <p id="purple">Lorem <span>ipsum</span></p>
+    
+    
+</body>
+</html>
